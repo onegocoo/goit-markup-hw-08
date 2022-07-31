@@ -1,13 +1,22 @@
 .clients__list {
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px -15px;
+
+}
+
+.clients__item{
+    flex-basis: calc((100% - 4 * 15px) / 2);
+    margin: 15px 15px;
 }
 
 .clients__link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
+    // width: 170px;
     height: 92px;
+    
     border: 1px solid #afb1b8;
     border-radius: 4px;
     transition-property: border;
