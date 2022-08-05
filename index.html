@@ -136,6 +136,7 @@
             <li class="service-list__item">
               <div class="service-list__inner">
                 <img
+                  srcset="./images/box1.jpg 1x, ./images/box1@2x.jpg 2x"
                   src="./images/box1.jpg"
                   alt="Руки на клавиатуре перед монитором"
                   width="370"
@@ -149,6 +150,7 @@
             <li class="service-list__item">
               <div class="service-list__inner">
                 <img
+                  srcset="./images/box2.jpg 1x, ./images/box2@2x.jpg 2x"
                   src="./images/box2.jpg"
                   alt="Руки на клавиатуре перед монитором"
                   width="370"
@@ -162,6 +164,7 @@
             <li class="service-list__item">
               <div class="service-list__inner">
                 <img
+                  srcset="./images/box3.jpg 1x, ./images/box3@2x.jpg 2x"
                   src="./images/box3.jpg"
                   alt="Руки на клавиатуре перед монитором"
                   width="370"
@@ -180,7 +183,23 @@
           <h2 class="section-title title">Наша команда</h2>
           <ul class="team-list section-list list">
             <li class="team-list__item">
-              <img src="./images/teammate1.jpg" alt="Посміхаючийся мужчина" />
+              <picture>
+                <source
+                  srcset="./images/teammate1-mob@2x.jpg x2, ./images/teammate1-mob.jpg"
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/teammate1-tablet@2x.jpg x2, ./images/teammate1-tablet.jpg"
+                  type="image/jpeg"
+                  media="(max-width: 1199px)"
+                />
+                <img
+                  srcset="./images/teammate1@2x.jpg x2"
+                  src="./images/teammate1.jpg"
+                  alt="Посміхаючийся мужчина"
+                />
+              </picture>
               <div class="team-thumb">
                 <h3 class="team-thumb__title title">Ігор Дем'яненко</h3>
                 <p class="team-thumb__profname">Product Designer</p>
@@ -217,7 +236,23 @@
               </div>
             </li>
             <li class="team-list__item">
-              <img src="./images/teammate2.jpg" alt="Усміхнена дівчина" />
+              <picture>
+                <source
+                  srcset="./images/teammate2-mob@2x.jpg x2, ./images/teammate2-mob.jpg"
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/teammate2-tablet@2x.jpg x2, ./images/teammate2-tablet.jpg"
+                  type="image/jpeg"
+                  media="(max-width: 1199px)"
+                />
+                <img
+                  srcset="./images/teammate2@2x.jpg x2"
+                  src="./images/teammate2.jpg"
+                  alt="Усміхнена дівчина"
+                />
+              </picture>
               <div class="team-thumb">
                 <h3 class="team-thumb__title title">Ольга Рєпіна</h3>
                 <p class="team-thumb__profname">Frontend Developer</p>
@@ -254,7 +289,23 @@
               </div>
             </li>
             <li class="team-list__item">
-              <img src="./images/teammate3.jpg" alt="Посміхаючийся мужчина" />
+              <picture>
+                <source
+                  srcset="./images/teammate3-mob@2x.jpg x2, ./images/teammate3-mob.jpg"
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/teammate3-tablet@2x.jpg x2, ./images/teammate3-tablet.jpg"
+                  type="image/jpeg"
+                  media="(max-width: 1199px)"
+                />
+                <img
+                  srcset="./images/teammate3@2x.jpg x2"
+                  src="./images/teammate3.jpg"
+                  alt="Посміхаючийся мужчина"
+                />
+              </picture>
               <div class="team-thumb">
                 <h3 class="team-thumb__title title">Микола Тарасов</h3>
                 <p class="team-thumb__profname">Marketing</p>
@@ -291,7 +342,23 @@
               </div>
             </li>
             <li class="team-list__item">
-              <img src="./images/teammate4.jpg" alt="Посміхаючийся мужчина" />
+              <picture>
+                <source
+                  srcset="./images/teammate4-mob@2x.jpg x2, ./images/teammate4-mob.jpg"
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./images/teammate4-tablet@2x.jpg x2, ./images/teammate4-tablet.jpg"
+                  type="image/jpeg"
+                  media="(max-width: 1199px)"
+                />
+                <img
+                  srcset="./images/teammate4@2x.jpg x2"
+                  src="./images/teammate4.jpg"
+                  alt="Посміхаючийся мужчина"
+                />
+              </picture>
               <div class="team-thumb">
                 <h3 class="team-thumb__title title">Михайло Єрмаков</h3>
                 <p class="team-thumb__profname">UI Designer</p>
