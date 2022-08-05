@@ -73,7 +73,9 @@
             </ul>
             <ul class="menu-social-list list">
               <li class="menu-social-list__item">
-                <a href="#" class="menu-social-list__link link">Instagram</a>
+                <a href="#" class="menu-social-list__link social-list__link--gray link"
+                  >Instagram</a
+                >
               </li>
               <li class="menu-social-list__item">
                 <a href="#" class="menu-social-list__link link">Twitter</a>
@@ -380,64 +382,66 @@
     </main>
     <footer class="footer section">
       <div class="container footer__container">
-        <div class="address-wrap">
-          <a href="./index.html" class="logo footer__logo link"
-            >Web<span class="logo__half logo__half--white">Studio</span></a
-          >
-          <address>
-            <ul class="address-list list">
-              <li class="address-list__item">
-                <a
-                  href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
-                  target="_blank"
-                  rel="noopener nofollow noreferrer"
-                  class="map link"
-                  >м. Київ, пр-т Лесі Українки, 26</a
-                >
+        <div class="footer-contacts-wrap">
+          <div class="address-wrap">
+            <a href="./index.html" class="logo footer__logo link"
+              >Web<span class="logo__half logo__half--white">Studio</span></a
+            >
+            <address>
+              <ul class="address-list list">
+                <li class="address-list__item">
+                  <a
+                    href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
+                    target="_blank"
+                    rel="noopener nofollow noreferrer"
+                    class="map link"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li>
+                <li class="address-list__item">
+                  <a href="mailto:info@devstudio.com" class="address-list__link link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="address-list__item">
+                  <a href="tel:+380961111111" class="address-list__link link">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="social-wrap">
+            <p class="cta-caption">Приєднуйтесь</p>
+            <ul class="social-list list">
+              <li class="social-list__item">
+                <a href="#" class="social-list__link social-list__link--gray link"
+                  ><svg class="social-list__icon social-list__icon--white">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
               </li>
-              <li class="address-list__item">
-                <a href="mailto:info@devstudio.com" class="address-list__link link"
-                  >info@devstudio.com</a
-                >
+              <li class="social-list__item">
+                <a href="#" class="social-list__link social-list__link--gray link"
+                  ><svg class="social-list__icon social-list__icon--white">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
               </li>
-              <li class="address-list__item">
-                <a href="tel:+380961111111" class="address-list__link link">+38 096 111 11 11</a>
+              <li class="social-list__item">
+                <a href="#" class="social-list__link social-list__link--gray link"
+                  ><svg class="social-list__icon social-list__icon--white">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="social-list__item">
+                <a href="#" class="social-list__link social-list__link--gray link"
+                  ><svg class="social-list__icon social-list__icon--white">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
               </li>
             </ul>
-          </address>
+          </div>
         </div>
-        <div class="social-wrap">
-          <p class="cta-caption">Приєднуйтесь</p>
-          <ul class="social-list footer__social-list list">
-            <li class="social-list__item">
-              <a href="#" class="social-list__link link"
-                ><svg class="social-list__icon">
-                  <use href="./images/icons.svg#icon-instagram"></use></svg
-              ></a>
-            </li>
-            <li class="social-list__item">
-              <a href="#" class="social-list__link link"
-                ><svg class="social-list__icon">
-                  <use href="./images/icons.svg#icon-twitter"></use></svg
-              ></a>
-            </li>
-            <li class="social-list__item">
-              <a href="#" class="social-list__link link"
-                ><svg class="social-list__icon">
-                  <use href="./images/icons.svg#icon-facebook"></use></svg
-              ></a>
-            </li>
-            <li class="social-list__item">
-              <a href="#" class="social-list__link link"
-                ><svg class="social-list__icon">
-                  <use href="./images/icons.svg#icon-linkedin"></use></svg
-              ></a>
-            </li>
-          </ul>
-        </div>
-        <div class="mailing-form-wrap">
-          <form class="mailing-form">
-            <label class="mailing-form__label" for="subscription">Підпишіться на розсилку</label>
+        <form class="mailing-form">
+          <label class="mailing-form__label" for="subscription"
+            >Підпишіться на розсилку
             <input
               type="email"
               name="mail"
@@ -445,14 +449,14 @@
               placeholder="E-mail"
               id="subscription"
             />
-            <button type="submit" class="btn mailing-form__btn">
-              Підписатися
-              <svg class="mailing-form__icon">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
+          </label>
+          <button type="submit" class="btn mailing-form__btn">
+            Підписатися
+            <svg class="mailing-form__icon">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
