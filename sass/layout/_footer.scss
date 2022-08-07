@@ -14,6 +14,7 @@
 .footer-contacts-wrap {
   @media screen and (min-width: 768px) {
     display: flex;
+    margin-bottom: 60px;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -22,8 +23,13 @@
 }
 
 .address-wrap {
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 60px;
+  }
+  @media screen and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   @media screen and (min-width: 1200px) {
@@ -32,6 +38,10 @@
 }
 
 .address-list {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+
   &__item + &__item {
     margin-top: 9px;
   }
@@ -68,7 +78,7 @@
 }
 
 .social-wrap {
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 60px;
   }
 }

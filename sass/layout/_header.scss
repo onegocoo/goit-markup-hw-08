@@ -57,6 +57,7 @@
   width: 100vw;
   height: 100vh;
   background-color: var(--primary-color);
+  z-index: 50;
 
   &.is-open {
     display: block;
@@ -95,7 +96,7 @@
     }
   }
 
-  &__item + &__item {
+  &__item+&__item {
     margin-top: 30px;
 
     @media screen and (min-width: 768px) {
@@ -165,15 +166,16 @@
 
     justify-content: center;
 
-    &__item + &__item {
+    &__item+&__item {
       margin-bottom: 10px;
     }
   }
+
   @media screen and (min-width: 1200px) {
     flex-direction: row-reverse;
     align-items: center;
 
-    &__item + &__item {
+    &__item+&__item {
       margin: 0 30px 0 0;
     }
   }
@@ -234,7 +236,7 @@
     display: none;
   }
 
-  &__item + &__item {
+  &__item+&__item {
     border-left: 1px solid rgba(33, 33, 33, 0.2);
     padding-left: 10px;
   }
